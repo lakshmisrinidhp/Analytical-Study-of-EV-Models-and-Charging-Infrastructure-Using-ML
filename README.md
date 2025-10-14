@@ -5,10 +5,10 @@ This repository contains all scripts, datasets, and generated outputs for the II
 ## Highlights
 
 - **Research questions:**  
-  1. How well do current charging networks match EV fast-charging requirements?  
-  2. Which regions face the highest technology mismatch risk?  
-  3. How does the EV model launch timeline compare with charging deployment?  
-  4. What future gaps will emerge if late-generation BEVs become dominant?
+  1. To what extent can machine learning based alignment metrics explain the relationship between existing charging station characteristics (such as power level, number of ports, and geographic distribution) and the demand patterns of electric vehicle models across different regions?
+2. Which countries or regions, as identified through modeled “predicted versus actual fast-charger
+shares,” exhibit the highest potential risk of mismatch between electric vehicle charging demand
+and available infrastructure?
 
 - **Datasets:** curated CSVs under `datasets/`, including global charging station inventories, EV model lists, and regional summaries.
 
