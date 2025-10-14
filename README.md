@@ -5,7 +5,7 @@ This repository contains all scripts, datasets, and generated outputs for the II
 ## Highlights
 
 - **Research questions:**  
-  1. To what extent can machine learning based alignment metrics explain the relationship between existing charging station characteristics (such as power level, number of ports, and geographic distribution) and the demand patterns of electric vehicle models across different regions?
+1. To what extent can machine learning based alignment metrics explain the relationship between existing charging station characteristics (such as power level, number of ports, and geographic distribution) and the demand patterns of electric vehicle models across different regions?
 2. Which countries or regions, as identified through modeled “predicted versus actual fast-charger
 shares,” exhibit the highest potential risk of mismatch between electric vehicle charging demand
 and available infrastructure?
