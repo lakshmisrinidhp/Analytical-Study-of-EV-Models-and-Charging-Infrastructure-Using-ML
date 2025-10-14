@@ -1,0 +1,263 @@
+{
+  "model_evaluation": {
+    "test_classification_report": {
+      "0": {
+        "precision": 0.8614170546156467,
+        "recall": 0.7988943003817296,
+        "f1-score": 0.8289784601095433,
+        "support": 37985.0
+      },
+      "1": {
+        "precision": 0.408288148721921,
+        "recall": 0.5191568994385896,
+        "f1-score": 0.4570957811212765,
+        "support": 10153.0
+      },
+      "accuracy": 0.7398936391208608,
+      "macro avg": {
+        "precision": 0.6348526016687839,
+        "recall": 0.6590255999101595,
+        "f1-score": 0.64303712061541,
+        "support": 48138.0
+      },
+      "weighted avg": {
+        "precision": 0.7658456187118077,
+        "recall": 0.7398936391208608,
+        "f1-score": 0.7505430278155578,
+        "support": 48138.0
+      }
+    },
+    "test_roc_auc": 0.7102592115024747,
+    "test_precision_fast": 0.408288148721921,
+    "test_recall_fast": 0.5191568994385896,
+    "test_f1_fast": 0.4570957811212765,
+    "confusion_matrix": [
+      [
+        30346,
+        7639
+      ],
+      [
+        4882,
+        5271
+      ]
+    ],
+    "cv_accuracy_mean": 0.511752833530886,
+    "cv_accuracy_std": 0.21251173824404515,
+    "cv_roc_auc_mean": 0.6113361605646807,
+    "cv_roc_auc_std": 0.04106422344495534,
+    "cv_balanced_accuracy_mean": 0.5313641608683802,
+    "cv_balanced_accuracy_std": 0.028024654971042923,
+    "permutation_importance_top10": [
+      {
+        "feature": "cat__country_code_AD",
+        "importance": 0.16264905064605922
+      },
+      {
+        "feature": "num__total_stations",
+        "importance": 0.1373052474136856
+      },
+      {
+        "feature": "cat__country_code_AE",
+        "importance": 0.06669782708047692
+      },
+      {
+        "feature": "num__ports",
+        "importance": 0.046389546719847075
+      },
+      {
+        "feature": "num__demand_score_filled",
+        "importance": 0.03782874236569857
+      },
+      {
+        "feature": "num__latitude",
+        "importance": 0.011714238231750352
+      },
+      {
+        "feature": "num__longitude",
+        "importance": 0.007923054551497744
+      },
+      {
+        "feature": "num__max_power_kw",
+        "importance": 0.0014707715318459159
+      },
+      {
+        "feature": "num__ev_models",
+        "importance": -0.005114462586729851
+      }
+    ]
+  },
+  "top_under_served_countries": [
+    {
+      "country_code": "VN",
+      "fast_actual_share": 0.0,
+      "fast_predicted_share": 0.17236339476089688,
+      "demand_score_filled": 0.9499999637795313,
+      "actual_gap": 0.9499999637795313,
+      "predicted_gap": 0.7776365690186344,
+      "station_count": 4,
+      "risk_level": "High",
+      "confidence_level": "low"
+    },
+    {
+      "country_code": "MT",
+      "fast_actual_share": 0.0,
+      "fast_predicted_share": 0.12418383671949342,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.8920370892166337,
+      "predicted_gap": 0.7678532524971403,
+      "station_count": 55,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "NL",
+      "fast_actual_share": 0.04375231738969225,
+      "fast_predicted_share": 0.13181480477817115,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.8482847718269415,
+      "predicted_gap": 0.7602222844384625,
+      "station_count": 8091,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "LU",
+      "fast_actual_share": 0.056818181818181816,
+      "fast_predicted_share": 0.17648500832532213,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.835218907398452,
+      "predicted_gap": 0.7155520808913116,
+      "station_count": 88,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "AD",
+      "fast_actual_share": 0.0625,
+      "fast_predicted_share": 0.19608534438433114,
+      "demand_score_filled": 0.8710109347905514,
+      "actual_gap": 0.8085109347905514,
+      "predicted_gap": 0.6749255904062202,
+      "station_count": 96,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "MX",
+      "fast_actual_share": 0.0690846286701209,
+      "fast_predicted_share": 0.2072589619593576,
+      "demand_score_filled": 0.8464638256037036,
+      "actual_gap": 0.7773791969335827,
+      "predicted_gap": 0.6392048636443459,
+      "station_count": 579,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "MC",
+      "fast_actual_share": 0.027777777777777776,
+      "fast_predicted_share": 0.27973593833667054,
+      "demand_score_filled": 0.8710109347905514,
+      "actual_gap": 0.8432331570127736,
+      "predicted_gap": 0.5912749964538808,
+      "station_count": 36,
+      "risk_level": "High",
+      "confidence_level": "low"
+    },
+    {
+      "country_code": "FR",
+      "fast_actual_share": 0.12981465392412395,
+      "fast_predicted_share": 0.32657235906422494,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.7622224352925098,
+      "predicted_gap": 0.5654647301524087,
+      "station_count": 13812,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "BE",
+      "fast_actual_share": 0.1285140562248996,
+      "fast_predicted_share": 0.33034012280141817,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.7635230329917342,
+      "predicted_gap": 0.5616969664152156,
+      "station_count": 1245,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "DK",
+      "fast_actual_share": 0.13360881542699724,
+      "fast_predicted_share": 0.3356481163564032,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.7584282737896365,
+      "predicted_gap": 0.5563889728602305,
+      "station_count": 2178,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "IM",
+      "fast_actual_share": 0.04878048780487805,
+      "fast_predicted_share": 0.32105536136808716,
+      "demand_score_filled": 0.8710109347905514,
+      "actual_gap": 0.8222304469856733,
+      "predicted_gap": 0.5499555734224642,
+      "station_count": 41,
+      "risk_level": "High",
+      "confidence_level": "low"
+    },
+    {
+      "country_code": "DE",
+      "fast_actual_share": 0.13965354600806107,
+      "fast_predicted_share": 0.36605515823619134,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.7523835432085726,
+      "predicted_gap": 0.5259819309804423,
+      "station_count": 23322,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "KE",
+      "fast_actual_share": 0.0,
+      "fast_predicted_share": 0.3491138510548502,
+      "demand_score_filled": 0.8710109347905514,
+      "actual_gap": 0.8710109347905514,
+      "predicted_gap": 0.5218970837357011,
+      "station_count": 12,
+      "risk_level": "High",
+      "confidence_level": "low"
+    },
+    {
+      "country_code": "CY",
+      "fast_actual_share": 0.14285714285714285,
+      "fast_predicted_share": 0.38279959931021024,
+      "demand_score_filled": 0.8920370892166337,
+      "actual_gap": 0.7491799463594908,
+      "predicted_gap": 0.5092374899064235,
+      "station_count": 91,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    },
+    {
+      "country_code": "LK",
+      "fast_actual_share": 0.13793103448275862,
+      "fast_predicted_share": 0.37040546822226256,
+      "demand_score_filled": 0.8710109347905514,
+      "actual_gap": 0.7330799003077928,
+      "predicted_gap": 0.5006054665682889,
+      "station_count": 58,
+      "risk_level": "High",
+      "confidence_level": "standard"
+    }
+  ],
+  "validation": {
+    "correlation_demand_vs_actual_fast": -0.1491210747655242,
+    "correlation_demand_vs_pred_fast": -0.19569910927834983,
+    "global_average_demand": 0.8765096988740171,
+    "global_average_actual_fast": 0.3583552031963923,
+    "global_average_predicted_fast": 0.6019252876160573
+  }
+}
